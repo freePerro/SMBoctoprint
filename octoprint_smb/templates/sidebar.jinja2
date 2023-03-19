@@ -7,9 +7,36 @@
                 <input type="text" id="smb_host" name="smb_host">
             </div>
         </div>
-        <!-- Add more fields for username, password, share, and directory -->
+        <div class="control-group">
+            <label class="control-label" for="smb_username">Username:</label>
+            <div class="controls">
+                <input type="text" id="smb_username" name="smb_username">
+            </div>
+        </div>
+        <div class="control-group">
+            <label class="control-label" for="smb_password">Password:</label>
+            <div class="controls">
+                <input type="password" id="smb_password" name="smb_password">
+            </div>
+        </div>
+        <div class="control-group">
+            <label class="control-label" for="smb_share">Share:</label>
+            <div class="controls">
+                <input type="text" id="smb_share" name="smb_share">
+            </div>
+        </div>
+        <div class="control-group">
+            <label class="control-label" for="smb_directory">Directory:</label>
+            <div class="controls">
+                <input type="text" id="smb_directory" name="smb_directory">
+            </div>
+        </div>
+        <div class="control-group">
+            <div class="controls">
+                <button id="smb_connect_button" class="btn btn-primary" data-bind="click: connectSMB">Connect</button>
+            </div>
+        </div>
     </form>
-    <button id="smb_connect_button" class="btn btn-primary">Connect</button>
     <div id="smb_file_list">
         <!-- Files will be listed here -->
     </div>
