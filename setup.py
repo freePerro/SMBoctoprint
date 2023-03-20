@@ -15,7 +15,7 @@ setup(
     ],
     entry_points={
         "octoprint.plugin": [
-            "octoprint_smb = octoprint_smb"
+            "SMB_octoprint = SMB_octoprint"
         ]
-    },
+    },  
 )
