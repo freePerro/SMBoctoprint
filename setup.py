@@ -6,7 +6,7 @@ setup(
     description="An OctoPrint plugin for accessing and managing files on an SMB/CIFS network share",
     author="Doug Blumer",
     author_email="dougblumer51@gmail.com",
-    url="https://github.com/your_username/octoprint_smb",
+    url="https://github.com/freePerro/SMBoctoprint",
     packages=find_packages(),
     include_package_data=True,
     install_requires=[
