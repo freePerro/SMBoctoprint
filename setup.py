@@ -10,8 +10,9 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     install_requires=[
-        "OctoPrint>=1.3.0",
+        "OctoPrint>=1.4.0",
         "smbprotocol>=1.6.0",
+        "python_version >= '3.6'",
     ],
     entry_points={
         "octoprint.plugin": [
